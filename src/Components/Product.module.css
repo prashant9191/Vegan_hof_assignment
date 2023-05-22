@@ -1,0 +1,15 @@
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rebeccapurple;
+}
+.thumbnails{
+    width: 50%;
+}
+.details_div{
+    width: 50%;
+}
+.thumbnails>img{
+    width: 100px;
+}
