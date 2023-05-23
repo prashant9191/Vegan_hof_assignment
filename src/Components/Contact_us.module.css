@@ -1,0 +1,28 @@
+#about{
+    color: white;
+    padding: 20px 5%;
+}
+h1{
+    color: #FDD835;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px; 
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#social_media a{
+    margin:20px ;
+    
+}
+#social_media i{
+    transition: ease-in-out .4s;
+    position: absolute;
+}
+#social_media i:hover{
+    transform: scale3d(1.1,1.1,1.1);
+   font-size: 25px;
+   color:#F50057 ;
+}

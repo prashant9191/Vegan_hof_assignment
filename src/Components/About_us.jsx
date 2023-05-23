@@ -1,9 +1,9 @@
 import React from "react";
-
+import styles from './About_us.module.css';
 function About_us() {
   return (
-    <div>
-      <h2>About Us</h2>
+    <div id={styles.about}>
+      <h1>About Us</h1>
       <p>
         VeganHof is a vegan brand that offers a variety of plant-based products.
         We are committed to providing our customers with delicious, healthy, and

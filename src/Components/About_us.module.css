@@ -1,0 +1,19 @@
+#about{
+    color: white;
+    padding: 20px 5%;
+
+}
+#about h1{
+    color: #FDD835;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#about p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: ease-in-out .4s;
+}
+#about p:hover{
+    color:#E91E63;
+}
