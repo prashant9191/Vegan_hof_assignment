@@ -3,7 +3,6 @@ import styles from './About_us.module.css';
 function About_us() {
   return (
     <div id={styles.about}>
-      <h1>About Us</h1>
       <p>
         VeganHof is a vegan brand that offers a variety of plant-based products.
         We are committed to providing our customers with delicious, healthy, and

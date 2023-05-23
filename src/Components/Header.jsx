@@ -10,8 +10,8 @@ function Header() {
           </div>
           <div>
             <a href="#products">Products</a>
-            <a href="/about">About Us</a>
-            <a href="/contact">Contact Us</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
           </div>
         </header>
     </div>

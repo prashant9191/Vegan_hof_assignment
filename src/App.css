@@ -4,10 +4,10 @@ html {
 body{
   background-color: black;
 }
-#products{
+ .title{
   color: #FDD835;
   padding-left: 5%;
   font-weight: bold;
   font-size: 45px;
-  padding-top: 50px;
+  padding-top: 60px;
 }

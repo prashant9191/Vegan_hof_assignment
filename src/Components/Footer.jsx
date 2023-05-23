@@ -29,13 +29,13 @@ function Footer() {
       <div id={styles.footer_}>
         <p>Copyright © 2023 VeganHof. All rights reserved.</p>
         <div id={styles.me}>
-          <a href="https://prashant9191.github.io/">
+          <a href="https://prashant9191.github.io/" target="_blank">
             <p>Prashant Verma</p>
           </a>
-          <a href="https://www.linkedin.com/in/prashant-verma-b44738178/">
+          <a href="https://www.linkedin.com/in/prashant-verma-b44738178/" target="_blank">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://github.com/prashant9191">
+          <a href="https://github.com/prashant9191" target="_blank">
             <i className="fab fa-github"></i>
           </a>
         </div>

@@ -1,16 +1,11 @@
-.product_container{
-    background-color:black ;
-}
-
 .product{
     display: flex;
     justify-content: space-between;
-    border: 3px solid rebeccapurple;
+    align-items: center;
     padding: 10px 5%;
 }
 .thumbnails{
     width: 40%;
-    border: 2px solid red;
 }
 .thumbnails button{
     color: #E91E63;
@@ -65,3 +60,12 @@
     background-color: #FF5722;
     color: white;
 }
+
+@media (max-width: 767px) {
+    .product{
+        flex-direction: column;
+    }
+    .thumbnails,.details_div{
+        width: 100%;
+    }
+  }

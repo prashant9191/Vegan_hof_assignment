@@ -19,10 +19,12 @@ function App() {
     <div className="App">
      <Header/>
      <Homebanner/>
-     <h1 id="products">Products</h1>
+     <h1 id="products" className='title'>Products</h1>
      <Product name={"Respberry Pie"} images={images} price={15} rating={'4.3/5'} chef={"Ranveer Brar"} color={"Red"} mfg_date={"20 May 2023"}expiry_date={"March 2026"} size={"Large"}/>
      <Product name={"Pineapple Pie"} images={appleimg} price={9.99} rating={'3.8/5'} chef={"Jhon Wick"} color={"Yellow"} mfg_date={"20 March 2023"}expiry_date={"Jan 2026"} size={"Medium"}/>
+    <h1 id="about"  className='title'>About</h1>
      <About_us/>
+     <h1 id="contact"  className='title'>Contact Us</h1>
      <Contact_us/>
      <Footer/>
     </div>

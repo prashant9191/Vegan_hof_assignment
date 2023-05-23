@@ -12,6 +12,7 @@ h1{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    align-items: center;
 }
 #social_media a{
     margin:20px ;
@@ -26,3 +27,11 @@ h1{
    font-size: 25px;
    color:#F50057 ;
 }
+@media (max-width: 767px) {
+    #container{
+        flex-direction: column;
+    }
+    #social_media{
+        margin-top: 20px;
+    }
+  }

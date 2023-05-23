@@ -3,7 +3,6 @@ import styles from "./Contact_us.module.css";
 function Contact_us() {
   return (
     <div id={styles.about}>
-      <h1>Contact Us</h1>
       <div id={styles.container}>
         <div>
           <p>

@@ -24,7 +24,6 @@ const Product = ({ name, price, images,rating,chef,color,expiry_date ,mfg_date,s
   };
 
   return (
-   <div className={styles.product_container}>
     <div className={styles.product}>
       <div className={styles.thumbnails}>
         <img
@@ -58,7 +57,6 @@ const Product = ({ name, price, images,rating,chef,color,expiry_date ,mfg_date,s
 
       </div>
     </div>
-   </div>
   );
 };
 

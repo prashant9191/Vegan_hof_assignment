@@ -11,11 +11,16 @@
   #home h1 {
     position: absolute;
     top: 30%;
-    right: 50px;
+    right: 30px;
     margin: 10px;
-    color:rgb(250, 2, 101);
+    color:#9C27B0;
     font-size: 40px;
     font-weight: bolder;
     padding: 10px;
   }
-  
+  @media (max-width: 767px) {
+    #home h1 {
+      font-size: 20px;
+      right: 0px;
+    }
+  }
